@@ -1,0 +1,38 @@
+.knowmeSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--rtc-primary-color);
+    color: var(--rtc-tertiary-bg-color);
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+
+.divUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.imageUser {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border: 3px solid var(--rtc-tertiary-bg-color);
+
+}
+.divUser>p{
+    color: var(--rtc-tertiary-bg-color);
+};
+
+.descriptionUser{
+    color: var(--rtc-tertiary-bg-color);
+    width: 20px;
+    height: 100px;
+}
