@@ -1,0 +1,12 @@
+
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rtc-tertiary-bg-color);
+    width: 100%;
+    height: 300px;
+}
+
+/*Tengo que dar estilo al formulario*/

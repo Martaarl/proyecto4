@@ -1,7 +1,7 @@
 .knowmeSection{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
     background-color: var(--rtc-primary-color);
@@ -29,10 +29,29 @@
 }
 .divUser>p{
     color: var(--rtc-tertiary-bg-color);
+    text-align: justify;
+
 };
+
+.descriptionDiv>.descriptionUser{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: auto;
+}
 
 .descriptionUser{
     color: var(--rtc-tertiary-bg-color);
-    width: 20px;
-    height: 100px;
+    width: 100%;
+    text-align: justify;
+}
+
+@media (max-width: 500px){
+    .knowmeSection{
+        display: flex;
+        align-items: center;
+    }
+    .descriptionUser{
+        display: none;
+    }
 }

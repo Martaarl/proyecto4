@@ -11,9 +11,9 @@ export default function createProjectsSection () {
     projectSection.className = 'projectSection';
 
     const cards = [
-        {name: 'Proyecto 1', image: '/assets/proyecto1.png', number: '/assets/1.png', link: 'https://github.com/Martaarl/landinpage.git' },
-        {name: 'Proyecto 2', image: '/assets/proyecto2.png', number: '/assets/2.png', link: 'https://github.com/Martaarl/proyecto2galeriacambios.git' },
-        {name: 'Proyecto 3', image: '/assets/proyecto3.png', number: '/assets/3.png', link: 'https://github.com/Martaarl/proyecto3.git' }
+        {name: '➡️  Proyecto 1 ⬅️', image: '/assets/proyecto1.png', number: '/assets/1.png', link: 'https://github.com/Martaarl/landinpage.git' },
+        {name: '➡️  Proyecto 2 ⬅️', image: '/assets/proyecto2.png', number: '/assets/2.png', link: 'https://github.com/Martaarl/proyecto2galeriacambios.git' },
+        {name: '➡️  Proyecto 3 ⬅️', image: '/assets/proyecto3.png', number: '/assets/3.png', link: 'https://github.com/Martaarl/proyecto3.git' }
     ];
 
     cards.forEach(card=>{

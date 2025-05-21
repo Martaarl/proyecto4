@@ -15,17 +15,44 @@ export default function createknowmeSection (){
         imageUser.src = '/assets/user.png';
         imageUser.alt = 'Imagen de la creadora del contenido';
 
-        const nameUser = document.createElement('p');
+        const nameUser = document.createElement('h3');
         nameUser.className = 'nameUser';
         nameUser.textContent= 'Marta Ramírez, Full-Stack Developer';
 
+        const skillsUser = [
+                             '/public/assets/css3.png',
+                            '/public/assets/github.png', 
+                             '/public/assets/javascript.png', 
+                             '/public/assets/node.png', 
+                             '/public/assets/visualstudio.png'
+                            ];
+
+        skillsUser.forEach(imag=>{
+            const skillImage = document.createElement('img');
+            skillImage.className = 'skills';
+            skillImage.src= imag;
+            skillImage.alt = 'Herramientas utilizadas por el usuario';
+            divUser.appendChild(skillImage);
+        })
+
     divUser.append(imageUser, nameUser);
+
+    const descriptionDiv = document.createElement('div');
+    descriptionDiv.className = 'descriptionDiv';
 
     const descriptionUser = document.createElement('p');
     descriptionUser.className = 'descriptionUser';
-    descriptionUser.textContent = 'Desarrolladora full-stack, con manejo de Frontend y pronto con un asombroso dominio de Backend';
+    descriptionUser.textContent = 'Desarrolladora full-stack, actualmente con manejo de Frontend y en pleno estudio de Backend. Hize fisioterapia y siempre me quedó la espinita clavada, hasta que finalmente hace 10 meses decidí comenzar con este proyecto';
 
-    knowmeSection.append(divUser, descriptionUser);
+    /*const skillsUser = document.createElement('p');
+    skillsUser.className = 'skills';
+    skillsUser.textContent = 'Alguna de las herramientas con las que trabajo son:';
+
+    const skills= document.createElement('ul');
+    skills = ['/public/assets/css3.png']*/
+    descriptionDiv.appendChild(descriptionUser);
+    
+    knowmeSection.append(divUser, descriptionDiv);
 
     main.appendChild(knowmeSection);
 
