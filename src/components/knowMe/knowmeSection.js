@@ -26,6 +26,7 @@ export default function createknowmeSection (){
                              '/public/assets/node.png', 
                              '/public/assets/visualstudio.png'
                             ];
+        skillsUser.className = 'skillsUser'    ;
 
         skillsUser.forEach(imag=>{
             const skillImage = document.createElement('img');
@@ -35,7 +36,7 @@ export default function createknowmeSection (){
             divUser.appendChild(skillImage);
         })
 
-    divUser.append(imageUser, nameUser);
+    divUser.append(imageUser, nameUser );
 
     const descriptionDiv = document.createElement('div');
     descriptionDiv.className = 'descriptionDiv';
@@ -44,12 +45,6 @@ export default function createknowmeSection (){
     descriptionUser.className = 'descriptionUser';
     descriptionUser.textContent = 'Desarrolladora full-stack, actualmente con manejo de Frontend y en pleno estudio de Backend. Hize fisioterapia y siempre me quedó la espinita clavada, hasta que finalmente hace 10 meses decidí comenzar con este proyecto';
 
-    /*const skillsUser = document.createElement('p');
-    skillsUser.className = 'skills';
-    skillsUser.textContent = 'Alguna de las herramientas con las que trabajo son:';
-
-    const skills= document.createElement('ul');
-    skills = ['/public/assets/css3.png']*/
     descriptionDiv.appendChild(descriptionUser);
     
     knowmeSection.append(divUser, descriptionDiv);

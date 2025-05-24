@@ -46,6 +46,20 @@
     text-align: justify;
 }
 
+/*Tengo que dar aun estilos a las imágenes de las habilidades y al margen derecho*/
+
+.skillsUser{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 50px;
+}
+
 @media (max-width: 500px){
     .knowmeSection{
         display: flex;
