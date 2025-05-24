@@ -27,7 +27,5 @@ export default function createFooter() {
     main.appendChild(footer);
 
     return
-
 }
 
-/*Me queda añadir la imagen de instagram al lado del texto para enlazarla con el perfil*/ 

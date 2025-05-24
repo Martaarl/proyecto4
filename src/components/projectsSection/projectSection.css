@@ -15,8 +15,6 @@
     flex-shrink: 1;
 }
 
-/*Tengo que darle estilos a los nombres de los proyectos*/
-
 .projectSection{
     width: 80%;
     height: auto;
@@ -40,7 +38,6 @@
 .cardDiv{
     width: 100%;
     height: auto;
-    /*flex: 0 0 auto;*/
     background-color: var(--rtc-tertiary-bg-color);
     position: relative;
     display: flex;
@@ -54,7 +51,6 @@
     padding-bottom: 50px;
     margin-left: 20px;
     gap: 10px;
-
 }
 
 .imgCard{

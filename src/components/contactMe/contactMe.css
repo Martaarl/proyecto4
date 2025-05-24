@@ -8,7 +8,6 @@
     justify-content: center;
     background-color: var(--rtc-tertiary-bg-color);
     gap: 10px;
-
 }
 
 .contact{
@@ -23,6 +22,7 @@
     border: 2px solid var(--rtc-primary-color);
     border-radius: 20px;
 }
+
 .contactForm{
     display: flex;
     flex-direction: column;
@@ -43,16 +43,19 @@
     border-radius: 5px;
     background-color: var(--rtc-tertiary-bg-color);
 }
+
 #surname{
     border: 2px solid var(--rtc-primary-color);
     border-radius: 5px;
     background-color: var(--rtc-tertiary-bg-color);
 }
+
 #email{
     border: 2px solid var(--rtc-primary-color);
     border-radius: 5px;
     background-color: var(--rtc-tertiary-bg-color);
 }
+
 #message{
     border: 2px solid var(--rtc-primary-color);
     border-radius: 5px;

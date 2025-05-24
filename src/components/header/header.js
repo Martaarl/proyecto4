@@ -38,4 +38,3 @@ export default function createHeader() {
     
 }
 
-/*Me queda crear una función que enlace los títulos de arriba y salte directamente a la sección que corresponde en la página*/ 
