@@ -9,6 +9,7 @@ export default function createProjectsSection () {
 
     const projectSection = document.createElement('section');
     projectSection.className = 'projectSection';
+    projectSection.id= 'myProjects';
 
     const cards = [
         {name: '➡️  Proyecto 1 ⬅️', image: '/assets/proyecto1.png', number: '/assets/1.png', link: 'https://github.com/Martaarl/landinpage.git' },

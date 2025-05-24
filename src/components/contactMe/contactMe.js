@@ -3,11 +3,12 @@ import './contactMe.css';
 export default function createContactMe (){
 
    const main = document.querySelector('main');
+  
    const formTemplate = document.getElementById('contactFormulary');
-   
    const formClone = formTemplate.content.cloneNode(true);
-   main.appendChild(formClone);
 
+   main.appendChild(formClone);
+   
    const contactForm = document.querySelector('.contactForm');
 
    contactForm.addEventListener('submit', (e) =>{

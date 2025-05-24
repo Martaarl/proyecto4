@@ -11,13 +11,16 @@ export default function createHeader() {
     options.className = 'options';
 
     const userOptions = ['Proyectos', 'Conoce más sobre mi', 'Ponte en contacto conmigo'];
-    userOptions.forEach(userOption=>{
+    
+    const hrefs = ['#myProjects', '#aboutMe', '#contactMe'];
+    
+    userOptions.forEach((userOption, index)=>{
 
         const li = document.createElement('li');
         li.className = 'userOptions';
 
         const a = document.createElement('a');
-        a.href = '#';
+        a.href = hrefs[index];
         a.textContent = userOption;
 
         li.appendChild(a);

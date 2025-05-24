@@ -12,7 +12,17 @@ export default function createFooter() {
     parragraphFooter.textContent = 'Creada por Marta Ramírez Linares';
     parragraphFooter.className = 'pFooter';
 
-    footer.appendChild(parragraphFooter);
+    const iconAnchor = document.createElement('a');
+    iconAnchor.href= 'https://www.instagram.com/martaarl?igsh=ZG5yeGRrbms5a2Fk&utm_source=qr';
+
+         const icon = document.createElement('img');
+         icon.className = 'iconInsta'
+         icon.src= '/public/assets/instaicon.png';
+         icon.alt= 'Símbolo de Instagram ,red social';
+
+         iconAnchor.appendChild(icon);
+    
+    footer.append(parragraphFooter, iconAnchor);
 
     main.appendChild(footer);
 

@@ -13,6 +13,7 @@
 
 .divUser{
     display: flex;
+    width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -27,45 +28,67 @@
     border: 3px solid var(--rtc-tertiary-bg-color);
 
 }
+
+.imageUser:hover{
+    transition: 2000;
+    transform: scale(1.05);
+}
 .divUser>p{
     color: var(--rtc-tertiary-bg-color);
     text-align: justify;
 
-};
-
-.descriptionDiv>.descriptionUser{
-    display: flex;
-    align-items: center;
-    width: 100px;
-    height: auto;
 }
 
+.descriptionDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+}
 .descriptionUser{
     color: var(--rtc-tertiary-bg-color);
-    width: 100%;
+    width: 90%;
     text-align: justify;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
-/*Tengo que dar aun estilos a las imágenes de las habilidades y al margen derecho*/
-
-.skillsUser{
+.descriptionSkills{
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
 }
+
 
 .skills{
     display: flex;
     flex-direction: row;
-    width: 60px;
-    height: 50px;
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    gap: 10px;
 }
 
 @media (max-width: 500px){
     .knowmeSection{
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
-    .descriptionUser{
+    .descriptionDiv{
         display: none;
+    }
+    .imageUser{
+        width: 80%;
+        height: 80%;
+    }
+    .nameUser{
+        font-size: 1rem;
     }
 }
