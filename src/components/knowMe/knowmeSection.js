@@ -18,7 +18,7 @@ export default function createknowmeSection (){
 
         const nameUser = document.createElement('h3');
         nameUser.className = 'nameUser';
-        nameUser.textContent= 'Marta Ramírez, Full-Stack Developer';
+        nameUser.textContent= 'Marta Ramírez /// Full-Stack Developer';
 
     divUser.append(imageUser, nameUser);
 
@@ -33,10 +33,12 @@ export default function createknowmeSection (){
         descriptionSkills.className = 'descriptionSkills';
 
         const skillsUser = [
+            '/public/assets/html.png',
             '/public/assets/css3.png',
-            '/public/assets/github.png', 
             '/public/assets/javascript.png', 
             '/public/assets/node.png', 
+            '/public/assets/vite.svg',
+            '/public/assets/github.png', 
             '/public/assets/visualstudio.png'
                 ];
     

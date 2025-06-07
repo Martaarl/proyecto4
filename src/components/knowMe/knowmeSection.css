@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    align-items: center; 
     background-color: var(--rtc-primary-color);
     color: var(--rtc-tertiary-bg-color);
     width: 100%;
@@ -45,8 +44,14 @@
     align-items: center;
     width: 50%;
     height: auto;
+    border-radius: 20px;
     padding: 20px;
     object-fit: contain;
+    background-color: var(--rtc-tertiary-bg-color);
+}
+
+.descriptionDiv>p{
+    color: var(--rtc-primary-color)
 }
 
 .descriptionUser{
@@ -74,7 +79,25 @@
     object-fit: contain;
     gap: 10px;
 }
-
+@media (max-width: 645px){
+    .descriptionDiv{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    .descriptionUser{
+        display: none;
+    }
+    .descriptionSkills{
+        width: 100%;
+    }
+    .descriptionSkills img{
+        width: 10%;
+    }
+    .knowmeSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media (max-width: 500px){
 
     .knowmeSection{
