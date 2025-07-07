@@ -1,5 +1,5 @@
 import './projectSection.css'
-import createProjectCard from './projectCard';
+import createProjectCard from './projectCard.js';
 
 export default function createProjectsSection () {
      
@@ -23,7 +23,7 @@ export default function createProjectsSection () {
     pagination.className= 'buttonsPagination';
 
     const preButton = document.createElement('button');
-    preButton.textContent = '⬅️ Anterior';
+    preButton.textContent = '⬅️  Anterior';
 
     const nextButton = document.createElement('button');
     nextButton.textContent = '➡️ Siguiente';

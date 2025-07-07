@@ -8,6 +8,7 @@
     justify-content: center;
     background-color: var(--rtc-tertiary-bg-color);
     gap: 10px;
+    text-align: center;
 }
 
 .contact{
@@ -30,12 +31,12 @@
     align-items: center;
     background-color: var(--rtc-secondary-bg-color);
     color: var(--rtc-primary-color);
-    width: 40%;
+    width: 90%;
     max-width: 400px;
-    height: 350px;
+    height: 400px;
     border: 2px solid var(--rtc-primary-color);
     border-radius: 20px;
-    margin-bottom: 20px;
+   margin-bottom: 20px;
     gap: 10px;
     padding: 8px;
 }
@@ -59,6 +60,7 @@
 #email{
     width: 90%;
     max-width: 300px;
+    height: auto;
     border: 2px solid var(--rtc-primary-color);
     border-radius: 5px;
     background-color: var(--rtc-tertiary-bg-color);
@@ -77,9 +79,12 @@
     color: var(--rtc-primary-color);
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 2px solid var(--rtc-primary-color);
-    border-radius: 5px;
+    border-radius: 80px;
     background-color: var(--rtc-tertiary-bg-color);
-    width: 70%;
+    width: 20%;
+    height: 40px;
     max-width: 250px;
+    margin-top: 30px;
 }

@@ -8,6 +8,7 @@ import createFooter from './components/footer/footer';
 
 createHeader();
 createknowmeSection();
-paginationForProjects();
+createProjectsSection();
+/*paginationForProjects();*/
 createContactMe();
 createFooter();
